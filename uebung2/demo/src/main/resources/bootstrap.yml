@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demo
+  cloud:
+    config:
+      uri: http://localhost:8888
+      discovery:
+        service-id: configserver
+        enabled: true
+      enabled: true
